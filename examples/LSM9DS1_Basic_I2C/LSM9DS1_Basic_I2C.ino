@@ -25,8 +25,6 @@
         GND --------- GND
   or easily using easyC cable.
 
-  (CSG, CSXM, SDOG, and SDOXM should all be pulled high. Jumpers on the breakout board will do this for you.)
-
   Modified by Soldered
   20 April 2023
 
