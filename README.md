@@ -1,13 +1,13 @@
-# NAZIV PROIZVODA Arduino library
+# LSM9DS1TR Accelerometer, Gyroscope & Magnetometer Arduino library
 
-[![Make docs and publish to GitHub Pages](https://github.com/SolderedElectronics/Soldered-Generic-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-Generic-Arduino-Library/actions/workflows/make_docs.yml)
-[![Arduino Library Manager Compatibility](https://github.com/SolderedElectronics/Soldered-Generic-Arduino-Library/actions/workflows/arduino_lint.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-Generic-Arduino-Library/actions/workflows/arduino_lint.yml)
+[![Make docs and publish to GitHub Pages](https://github.com/SolderedElectronics/Soldered-LSM9DS1TR-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-LSM9DS1TR-Arduino-Library/actions/workflows/make_docs.yml)
+[![Arduino Library Manager Compatibility](https://github.com/SolderedElectronics/Soldered-LSM9DS1TR-Arduino-Library/actions/workflows/arduino_lint.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-LSM9DS1TR-Arduino-Library/actions/workflows/arduino_lint.yml)
 
-| ![Product name](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
+| ![LSM9DS1TR Accelerometer, Gyroscope & Magnetometer](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :------------------------------------------------------------------------------------: |
-|                      [NAZIV PROIZVODA](https://www.solde.red/SKU)                      |
+|                      [LSM9DS1TR Accelerometer, Gyroscope & Magnetometer](https://www.solde.red/333069)                      |
 
-OPIS PROIZVODA + LINK NA [easyC ecosystem](https://www.soldered.com/en/easyC).
+LSM9DS1TR breakout compliant to [easyC ecosystem](https://www.soldered.com/en/easyC).
 
 ### Repository Contents
 
@@ -17,20 +17,20 @@ OPIS PROIZVODA + LINK NA [easyC ecosystem](https://www.soldered.com/en/easyC).
 
 ### Hardware design
 
-You can find hardware design for this board in _NAZIV PROIZVODA_ hardware repository.
+You can find hardware design for this board in _LSM9DS1TR Accelerometer, Gyroscope & Magnetometer_ hardware repository.
 
 ### Documentation
 
-Access Arduino library documentation [here](https://SolderedElectronics.github.io/Soldered-Generic-Arduino-Library/).
+Access Arduino library documentation [here](https://SolderedElectronics.github.io/Soldered-LSM9DS1TR-Arduino-Library/).
 
-- Tutorial for using the NAZIV PROIZVODA board
+- Tutorial for using the LSM9DS1TR Accelerometer, Gyroscope & Magnetometer board
 - Installing an Arduino library
 
 ### Board compatibility
 
 The library is compatible with board & microcontroller families shown in green below:
 
-[![Compile Sketches](http://github-actions.40ants.com/SolderedElectronics/Soldered-Generic-Arduino-Library/matrix.svg?branch=dev&only=Compile%20Sketches)](https://github.com/SolderedElectronics/Soldered-Generic-Arduino-Library/actions/workflows/compile_test.yml)
+[![Compile Sketches](http://github-actions.40ants.com/SolderedElectronics/Soldered-LSM9DS1TR-Arduino-Library/matrix.svg?branch=dev&only=Compile%20Sketches)](https://github.com/SolderedElectronics/Soldered-LSM9DS1TR-Arduino-Library/actions/workflows/compile_test.yml)
 
 ### About Soldered
 
@@ -43,9 +43,8 @@ At Soldered, we design and manufacture a wide selection of electronic products t
 - [Community & Technical support](https://soldered.com/community)
 
 ### Original source
-
 ​
-This library is possible thanks to original [arduino-mcp23017](https://github.com/blemasle/arduino-mcp23017) library. Thank you, blemasle.
+This library is possible thanks to original [SparkFun_LSM9DS1_Arduino_Library](https://github.com/sparkfun/SparkFun_LSM9DS1_Arduino_Library). Thank you, SparkFun.
 
 ### Open-source license
 
