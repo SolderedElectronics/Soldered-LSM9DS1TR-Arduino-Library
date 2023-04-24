@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['begin_0',['begin',['../class_easy_c.html#a1b5a82b8a59daea79de76e496457e176',1,'EasyC::begin()'],['../class_easy_c.html#a9e71467da6f38cbe47b10e96694a4f91',1,'EasyC::begin(uint8_t _address)']]]
+  ['accelavailable_0',['accelAvailable',['../class_l_s_m9_d_s1.html#a515ce6f5c199a86c6aa5be353b2a3a13',1,'LSM9DS1']]]
 ];

@@ -1,6 +1,9 @@
 var searchData=
 [
-  ['sendaddress_0',['sendAddress',['../class_easy_c.html#a10aa7df19e8c7bf12cd720b662f317a3',1,'EasyC']]],
-  ['senddata_1',['sendData',['../class_easy_c.html#afe8aa014ae53cad3b0f3c42f59277195',1,'EasyC']]],
-  ['sensor_2',['Sensor',['../class_sensor.html#a2b8ea6b15267f6fa0e263f57a09f6b62',1,'Sensor']]]
+  ['getaccelintsrc_0',['getAccelIntSrc',['../class_l_s_m9_d_s1.html#ae42ae3b368370f977d090ba0e53c7f5c',1,'LSM9DS1']]],
+  ['getfifosamples_1',['getFIFOSamples',['../class_l_s_m9_d_s1.html#ac03ef2ff928a25c4a80af7707cd92dc8',1,'LSM9DS1']]],
+  ['getgyrointsrc_2',['getGyroIntSrc',['../class_l_s_m9_d_s1.html#aaba6696754df62a411a6a190100f9ca3',1,'LSM9DS1']]],
+  ['getinactivity_3',['getInactivity',['../class_l_s_m9_d_s1.html#a9dab029d1d24e49709258d893042d28f',1,'LSM9DS1']]],
+  ['getmagintsrc_4',['getMagIntSrc',['../class_l_s_m9_d_s1.html#a2bc92a37db982059b89e0a06e7d05a95',1,'LSM9DS1']]],
+  ['gyroavailable_5',['gyroAvailable',['../class_l_s_m9_d_s1.html#a65b71a03a30f4e8ed1ffd46de3db0560',1,'LSM9DS1']]]
 ];

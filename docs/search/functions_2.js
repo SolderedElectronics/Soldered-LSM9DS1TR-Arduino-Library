@@ -1,4 +1,20 @@
 var searchData=
 [
-  ['initializenative_0',['initializeNative',['../class_sensor.html#adb537c76173019fddf84b2d89e6c6559',1,'Sensor::initializeNative()'],['../class_easy_c.html#a48c8aa55d48ef0cc11047cab0735c998',1,'EasyC::initializeNative()']]]
+  ['calcaccel_0',['calcAccel',['../class_l_s_m9_d_s1.html#a54e2a7888b67b47cf0dd986c5b91a3c5',1,'LSM9DS1']]],
+  ['calcares_1',['calcaRes',['../class_l_s_m9_d_s1.html#a31597c9ae6c5a7de64a50cbbbcd24297',1,'LSM9DS1']]],
+  ['calcgres_2',['calcgRes',['../class_l_s_m9_d_s1.html#a303e0dd33e000579dc3917aecedb6e63',1,'LSM9DS1']]],
+  ['calcgyro_3',['calcGyro',['../class_l_s_m9_d_s1.html#a76707323565bc4170ea8e27a932c95e4',1,'LSM9DS1']]],
+  ['calcmag_4',['calcMag',['../class_l_s_m9_d_s1.html#a7d0b0740497b1a10cd3e46a282a143ec',1,'LSM9DS1']]],
+  ['calcmres_5',['calcmRes',['../class_l_s_m9_d_s1.html#a830dfc95c7e2d8524720d78357b053cb',1,'LSM9DS1']]],
+  ['calibrate_6',['calibrate',['../class_l_s_m9_d_s1.html#a97939cb15fcb7e33abcd6d3a9230d943',1,'LSM9DS1']]],
+  ['calibratemag_7',['calibrateMag',['../class_l_s_m9_d_s1.html#afb45f0bcbcbeb15d4bd1a28821b24d14',1,'LSM9DS1']]],
+  ['configaccelint_8',['configAccelInt',['../class_l_s_m9_d_s1.html#a1e8ebc6c1e3876d8936197dc93f76717',1,'LSM9DS1']]],
+  ['configaccelths_9',['configAccelThs',['../class_l_s_m9_d_s1.html#acebcf64ab4e6ea7ed7a23c09ef16afe9',1,'LSM9DS1']]],
+  ['configgyroint_10',['configGyroInt',['../class_l_s_m9_d_s1.html#a19a341728c4e5b454de045c8a531cf06',1,'LSM9DS1']]],
+  ['configgyroths_11',['configGyroThs',['../class_l_s_m9_d_s1.html#ad865cc972960ed476fabd54f698adf6e',1,'LSM9DS1']]],
+  ['configinactivity_12',['configInactivity',['../class_l_s_m9_d_s1.html#a1e318c5e7c1d500c3ab2602c46265354',1,'LSM9DS1']]],
+  ['configint_13',['configInt',['../class_l_s_m9_d_s1.html#a5b6948b9d4caf57cfe9e0559a0c7f54c',1,'LSM9DS1']]],
+  ['configmagint_14',['configMagInt',['../class_l_s_m9_d_s1.html#a54a521668eb63d504d227c6d460723e0',1,'LSM9DS1']]],
+  ['configmagths_15',['configMagThs',['../class_l_s_m9_d_s1.html#a87cf3dd3a4d9ca79106eb7c1c866a224',1,'LSM9DS1']]],
+  ['constrainscales_16',['constrainScales',['../class_l_s_m9_d_s1.html#a5aadcd09cf9157de817c359e49304ca7',1,'LSM9DS1']]]
 ];

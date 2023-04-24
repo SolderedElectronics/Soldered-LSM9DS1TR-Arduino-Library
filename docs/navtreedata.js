@@ -24,8 +24,9 @@
 */
 var NAVTREE =
 [
-  [ "16x2 easyC LCD Library", "index.html", [
-    [ "NAZIV PROIZVODA Arduino library", "index.html", "index" ],
+  [ "Soldered LSM9DS1TR Arduino Library", "index.html", [
+    [ "LSM9DS1TR Accelerometer, Gyroscope & Magnetometer Arduino library", "index.html", "index" ],
+    [ "License Information", "md_src_libs__spark_fun__l_s_m9_d_s1__arduino__library__l_i_c_e_n_s_e.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -37,14 +38,20 @@ var NAVTREE =
       ] ]
     ] ],
     [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ]
+      [ "File List", "files.html", "files_dup" ],
+      [ "File Members", "globals.html", [
+        [ "All", "globals.html", null ],
+        [ "Enumerations", "globals_enum.html", null ],
+        [ "Enumerator", "globals_eval.html", null ]
+      ] ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"_generic-easy_c-_s_o_l_d_e_r_e_d_8cpp.html"
+"_l_s_m9_d_s1___registers_8h.html",
+"structgyro_settings.html#ac3f0782333ec55165c1f589d445ba374"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

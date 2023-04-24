@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['native_0',['native',['../class_easy_c.html#abb766b60f26778dbc64e8792fd754729',1,'EasyC']]]
+  ['device_0',['device',['../struct_i_m_u_settings.html#a22b2648befc58307b43edc9e74acd583',1,'IMUSettings']]]
 ];
