@@ -1,6 +1,6 @@
 /*****************************************************************
 LSM9DS1_Settings.ino
-Jim Lindblom @ SparkFun Electronics
+Original author: Jim Lindblom @ SparkFun Electronics
 Original Creation Date: August 13, 2015
 
 This Arduino sketch demonstrates how to configure every possible configuration value in the library.

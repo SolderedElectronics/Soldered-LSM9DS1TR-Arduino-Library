@@ -1,6 +1,6 @@
 /*****************************************************************
 LSM9DS1_Interrups.ino
-Jim Lindblom @ SparkFun Electronics
+Original author: Jim Lindblom @ SparkFun Electronics
 Original Creation Date: August 13, 2015
 
 This Arduino sketch demonstrates how to use all four of the LSM9DS1's interrupt outputs: INT1-A, INT2-A, INTM and RDY-M.
@@ -43,7 +43,7 @@ LSM9DS1TR imu; // Create an LSM9DS1 object to use from here on.
 // These can be swapped to any available digital pin:
 const int INT1_PIN_THS = 3;  // INT1-A pin to D3 - will be attached to gyro
 const int INT2_PIN_DRDY = 4; // INT2-A pin to D4 - attached to accel
-const int INTM_PIN_THS = 5;  // INTM_PIN_THS pin to D5
+const int INTM_PIN_THS = 5;  // INT-M pin to D5
 const int RDYM_PIN = 6;      // RDY-M pin to D6
 
 // Variable to keep track of when we print sensor readings:
