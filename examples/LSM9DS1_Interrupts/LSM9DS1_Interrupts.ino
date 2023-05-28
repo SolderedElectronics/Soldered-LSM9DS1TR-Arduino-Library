@@ -1,50 +1,70 @@
-/*****************************************************************
-LSM9DS1_Interrups.ino
-Original author: Jim Lindblom @ SparkFun Electronics
-Original Creation Date: August 13, 2015
-
-This Arduino sketch demonstrates how to use all four of the LSM9DS1's interrupt outputs: INT1-A, INT2-A, INTM and RDY-M.
-
-- INT1-A is configured to interrupt when accelerometer or gyroscope values exceed a set threshold.
-- INT2-A is configured to interrupt when new accelerometer or gyroscope values are available
-- INT-M is configured to interrupt when the magnetometer exceeds a set threshold.
-- RDY-M (doesn't need configuring) is used to alert when new magnetometer data is available.
-
-After uploading the sketch, accel/gyro/mag values will stream by every second, but that's not really what we're
-looking for. Try rotating the sensor along the z-axis - an interrupt should fire if you rotate fast enough - exceeding
-the gyroscope threshold. Then try rotating along the y-axis. The accelerometer int is configured to fire when the x-axis
-acceleration exceeds a threshold. Finally, try bringing something magnetic near the sensor. The magnetometer interrupt
-is calibrated to fire when the x-axis mag reading gets too high.
-
-Hardware setup: The pin-out is as follows:
-   LSM9DS1 ------ Dasduino
-   SCL ---------- SCL (A5 on older 'Duinos')
-   SDA ---------- SDA (A4 on older 'Duinos')
-   VDD ---------- 3.3V
-   GND ---------- GND
-   or simply connect with easyC.
-   INT2-A ------- D4
-   INT1-A ------- D3
-   INT-M -------- D5
-   RDY-M -------- D6
-
-Modified by Soldered
-20 April 2023
-
-Distributed as-is; no warranty is given.
-*****************************************************************/
+/**
+ **************************************************
+ *
+ * @file        LSM9DS1_Interrupts.ino
+ * @brief       This example will show you how to:
+ *              -Use the interrupts INT1-A, INT2-A, INTM and RDY-M
+ *              -INT1-A is configured to interrupt when accelerometer or gyroscope values exceed a set threshold
+ *              -INT2-A is configured to interrupt when new accelerometer or gyroscope values are available
+ *              -INT-M is configured to interrupt when the magnetometer exceeds a set threshold
+ *              -RDY-M (doesn't need configuring) is used to alert when new magnetometer data is available
+ *
+ *              To successfully run the sketch:
+ *              -Connect the breakout to your Dasduino board according to the diagram below
+ *              -Make sure to connect the interrupt pins as well!
+ *              -Open the Serial monitor at 115200 baud!
+ *
+ *              LSM9DS1TR Accelerometer, Gyroscope & Magnetometer: solde.red/333069
+ *              Dasduino Core: www.solde.red/333037
+ *              Dasduino Connect: www.solde.red/333034
+ *              Dasduino ConnectPlus: www.solde.red/333033
+ *
+ * @authors     Originally made by Jim Lindblom @ SparkFun Electronics
+ *              Modified by Soldered
+ ***************************************************/
 
 // Include needed libraries
 #include "LSM9DS1TR-SOLDERED.h"
 #include "Wire.h"
 
-LSM9DS1TR imu; // Create an LSM9DS1 object to use from here on.
-
-// These can be swapped to any available digital pin:
+// Set the digital input pins for the interrupts
+// These can be swapped to any available digital pin with interrupt support
+// NOTE: these pins are 3v3 only on the breakout!
 const int INT1_PIN_THS = 3;  // INT1-A pin to D3 - will be attached to gyro
 const int INT2_PIN_DRDY = 4; // INT2-A pin to D4 - attached to accel
 const int INTM_PIN_THS = 5;  // INT-M pin to D5
 const int RDYM_PIN = 6;      // RDY-M pin to D6
+
+/**
+ * Connecting diagram:
+ *
+ * LSM9DS1TR                    Dasduino Core / Connect / ConnectPlus
+ * VCC------------------------->VCC
+ * GND------------------------->GND
+ * SCL------------------------->A5/IO5/IO22
+ * SDA------------------------->A4/IO4/IO21
+ *
+ * Or, simply use an easyC cable!
+ *
+ * Also connect the interrupts
+ * LSM9DS1TR                    Dasduino
+ * INT1-A                       INT1_PIN_THS (set by user)
+ * INT2-A                       INT2_PIN_DRDY (set by user)
+ * INT-M                        INTM_PIN_THS (set by user)
+ * RDY-M                        RDYM_PIN (set by user)
+ *
+ * Make sure to set the pins in the code above
+ */
+
+/**
+ * After uploading the sketch, accel/gyro/mag values will stream by every second, but that's not really what we're
+ * looking for. Try rotating the sensor along the z-axis - an interrupt should fire if you rotate fast enough - exceeding
+ * the gyroscope threshold. Then try rotating along the y-axis. The accelerometer int is configured to fire when the x-axis
+ * acceleration exceeds a threshold. Finally, try bringing something magnetic near the sensor. The magnetometer interrupt
+ * is calibrated to fire when the x-axis mag reading gets too high.
+ */
+
+LSM9DS1TR imu; // Create an LSM9DS1 object to use from here on.
 
 // Variable to keep track of when we print sensor readings:
 unsigned long lastPrint = 0;
@@ -169,7 +189,9 @@ void setup()
         Serial.print("Failed to connect to IMU: 0x");
         Serial.println(status, HEX);
         while (1)
-            ;
+        {
+            delay(100);
+        }
     }
 
     // After turning the IMU on, configure the interrupts:
