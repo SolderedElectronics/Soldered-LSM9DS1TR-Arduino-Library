@@ -1,34 +1,39 @@
-/*****************************************************************
-LSM9DS1_Settings.ino
-Original author: Jim Lindblom @ SparkFun Electronics
-Original Creation Date: August 13, 2015
-
-This Arduino sketch demonstrates how to configure every possible configuration value in the library.
-
-It demonstrates how to set the output data rates and scales for each sensor, along with other settings
-like LPF cutoff frequencies and low-power settings.
-
-It also demonstrates how to turn various sensors in the LSM9DS1 on or off.
-
-Hardware setup:
-This library supports communicating with the LSM9DS1 over either I2C or SPI. This example demonstrates how
-to use I2C. The pin-out is as follows:
-  LSM9DS1 ---------- Arduino
-      SCL ---------- SCL (A5 on older 'Duinos')
-      SDA ---------- SDA (A4 on older 'Duinos')
-      VDD ---------- 3.3V
-      GND ---------- GND
-or simply connect with easyC.
-
-Modified by Soldered
-20 April 2023
-
-Distributed as-is; no warranty is given.
-*****************************************************************/
+/**
+ **************************************************
+ *
+ * @file        LSM9DS1_Settings.ino
+ * @brief       This example will show you how to:
+ *              -Configure the LSM9DS1TR sensor with an overview of all the available settings
+ *
+ *              To successfully run the sketch:
+ *              -Connect the breakout to your Dasduino board according to the diagram below
+ *              -Open the Serial monitor at 115200 baud!
+ *
+ *              LSM9DS1TR Accelerometer, Gyroscope & Magnetometer: solde.red/333069
+ *              Dasduino Core: www.solde.red/333037
+ *              Dasduino Connect: www.solde.red/333034
+ *              Dasduino ConnectPlus: www.solde.red/333033
+ *
+ * @authors     Originally made by Jim Lindblom @ SparkFun Electronics
+ *              Modified by Soldered
+ ***************************************************/
 
 // Include needed libraries
 #include "LSM9DS1TR-SOLDERED.h"
 #include "Wire.h"
+
+/**
+ * Connecting diagram:
+ *
+ * LSM9DS1TR                    Dasduino Core / Connect / ConnectPlus
+ * VCC------------------------->VCC
+ * GND------------------------->GND
+ * SCL------------------------->A5/IO5/IO22
+ * SDA------------------------->A4/IO4/IO21
+ * 
+ * Or, simply use an easyC cable!
+ * 
+ */
 
 LSM9DS1TR imu; // Create an LSM9DS1TR object
 
