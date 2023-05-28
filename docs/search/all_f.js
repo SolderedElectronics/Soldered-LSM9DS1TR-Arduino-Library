@@ -1,8 +1,8 @@
 var searchData=
 [
   ['readme_2emd_0',['README.md',['../src_2libs_2_spark_fun___l_s_m9_d_s1___arduino___library_2_r_e_a_d_m_e_8md.html',1,'']]],
-  ['samplerate_1',['sampleRate',['../structgyro_settings.html#a58ebac4d1f242d6b129570396a7355b0',1,'gyroSettings::sampleRate()'],['../structaccel_settings.html#a51704cb40f1e72ec298f601fedcc6092',1,'accelSettings::sampleRate()'],['../structmag_settings.html#aca3dbf81e533dce344e618a3df199c1e',1,'magSettings::sampleRate()']]],
-  ['scale_2',['scale',['../structmag_settings.html#a5966915104376cb76d9eb787bab024bc',1,'magSettings::scale()'],['../structaccel_settings.html#a3a0a38e5e32ad21fcf8e880f37c0de1e',1,'accelSettings::scale()'],['../structgyro_settings.html#a70ced5c47e97d4dd6770954117ad3a9f',1,'gyroSettings::scale()']]],
+  ['samplerate_1',['sampleRate',['../structgyro_settings.html#a58ebac4d1f242d6b129570396a7355b0',1,'gyroSettings::sampleRate'],['../structaccel_settings.html#a51704cb40f1e72ec298f601fedcc6092',1,'accelSettings::sampleRate'],['../structmag_settings.html#aca3dbf81e533dce344e618a3df199c1e',1,'magSettings::sampleRate']]],
+  ['scale_2',['scale',['../structmag_settings.html#a5966915104376cb76d9eb787bab024bc',1,'magSettings::scale'],['../structaccel_settings.html#a3a0a38e5e32ad21fcf8e880f37c0de1e',1,'accelSettings::scale'],['../structgyro_settings.html#a70ced5c47e97d4dd6770954117ad3a9f',1,'gyroSettings::scale']]],
   ['setaccelodr_3',['setAccelODR',['../class_l_s_m9_d_s1.html#a76d72839cdecc3f1c4ee6fff578182c5',1,'LSM9DS1']]],
   ['setaccelscale_4',['setAccelScale',['../class_l_s_m9_d_s1.html#a8656d2de1ff9cc4cb76214e4561d02c4',1,'LSM9DS1']]],
   ['setfifo_5',['setFIFO',['../class_l_s_m9_d_s1.html#a0ec4a93a34545af1acc336bae9b360f1',1,'LSM9DS1']]],

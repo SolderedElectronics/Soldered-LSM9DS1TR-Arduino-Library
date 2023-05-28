@@ -26,7 +26,7 @@ var NAVTREE =
 [
   [ "Soldered LSM9DS1TR Arduino Library", "index.html", [
     [ "LSM9DS1TR Accelerometer, Gyroscope & Magnetometer Arduino library", "index.html", "index" ],
-    [ "License Information", "md_src_libs__spark_fun__l_s_m9_d_s1__arduino__library__l_i_c_e_n_s_e.html", null ],
+    [ "License Information", "md_src_2libs_2_spark_fun___l_s_m9_d_s1___arduino___library_2_l_i_c_e_n_s_e.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
