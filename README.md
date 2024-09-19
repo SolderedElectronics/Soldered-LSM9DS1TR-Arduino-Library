@@ -5,9 +5,9 @@
 
 | ![LSM9DS1TR Accelerometer, Gyroscope & Magnetometer](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :------------------------------------------------------------------------------------: |
-|                      [LSM9DS1TR Accelerometer, Gyroscope & Magnetometer](https://www.solde.red/333069)                      |
+|                      [LSM9DS1TR Accelerometer, Gyroscope & Magnetometer](https://solde.red/333069)                      |
 
-LSM9DS1TR breakout compliant to [easyC ecosystem](https://www.soldered.com/en/easyC).
+LSM9DS1TR breakout compliant to [easyC ecosystem](https://www.soldered.com/easyC).
 
 ### Repository Contents
 
