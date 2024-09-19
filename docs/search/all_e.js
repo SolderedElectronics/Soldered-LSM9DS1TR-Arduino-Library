@@ -4,5 +4,6 @@ var searchData=
   ['readgyro_1',['readGyro',['../class_l_s_m9_d_s1.html#a56e9710cb538a4c7f7ab94c2ca256ce9',1,'LSM9DS1::readGyro()'],['../class_l_s_m9_d_s1.html#adc1b37609a6c850328b16da4f911cefd',1,'LSM9DS1::readGyro(lsm9ds1_axis axis)']]],
   ['readmag_2',['readMag',['../class_l_s_m9_d_s1.html#ae127cf75aa5f3c5421e49363795dcd38',1,'LSM9DS1::readMag()'],['../class_l_s_m9_d_s1.html#a615fd3ab32a9af833ef9899663100330',1,'LSM9DS1::readMag(lsm9ds1_axis axis)']]],
   ['readme_2emd_3',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
-  ['readtemp_4',['readTemp',['../class_l_s_m9_d_s1.html#aca21a51dc79a1287b97ed9c326e2080b',1,'LSM9DS1']]]
+  ['readtemp_4',['readTemp',['../class_l_s_m9_d_s1.html#aca21a51dc79a1287b97ed9c326e2080b',1,'LSM9DS1']]],
+  ['repository_20contents_5',['Repository Contents',['../index.html#autotoc_md1',1,'Repository Contents'],['..//github/workspace/gh-pages/src/libs/SparkFun_LSM9DS1_Arduino_Library/README.md#autotoc_md9',1,'Repository Contents']]]
 ];

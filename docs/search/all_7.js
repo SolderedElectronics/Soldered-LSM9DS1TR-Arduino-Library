@@ -26,6 +26,7 @@ var searchData=
   ['gyro_5fodr_23',['gyro_odr',['../_l_s_m9_d_s1___types_8h.html#af4749d8ab55f522c4ec64885dfd5b0da',1,'LSM9DS1_Types.h']]],
   ['gyro_5fscale_24',['gyro_scale',['../_l_s_m9_d_s1___types_8h.html#aaefcfc776c48cc3dadde638a460a41f7',1,'LSM9DS1_Types.h']]],
   ['gyroavailable_25',['gyroAvailable',['../class_l_s_m9_d_s1.html#a65b71a03a30f4e8ed1ffd46de3db0560',1,'LSM9DS1']]],
-  ['gyrosettings_26',['gyroSettings',['../structgyro_settings.html',1,'']]],
-  ['gz_27',['gz',['../class_l_s_m9_d_s1.html#ad4d0f0585398ff917afcba1b4a73e519',1,'LSM9DS1']]]
+  ['gyroscope_20magnetometer_20arduino_20library_26',['LSM9DS1TR Accelerometer, Gyroscope &amp; Magnetometer Arduino library',['../index.html',1,'']]],
+  ['gyrosettings_27',['gyroSettings',['../structgyro_settings.html',1,'']]],
+  ['gz_28',['gz',['../class_l_s_m9_d_s1.html#ad4d0f0585398ff917afcba1b4a73e519',1,'LSM9DS1']]]
 ];

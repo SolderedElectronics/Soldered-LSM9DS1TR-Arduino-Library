@@ -8,5 +8,6 @@ var searchData=
   ['fifomode_5ftype_5',['fifoMode_type',['../_l_s_m9_d_s1___types_8h.html#abd0fd05ddd88dadb906475b36c8266db',1,'LSM9DS1_Types.h']]],
   ['flipx_6',['flipX',['../structgyro_settings.html#a877b529e39287bed155acbca97a75540',1,'gyroSettings']]],
   ['flipy_7',['flipY',['../structgyro_settings.html#a2137659e07899a0efccc941e003c07e0',1,'gyroSettings']]],
-  ['flipz_8',['flipZ',['../structgyro_settings.html#a94c92be9f7c56dd9cd21120307d7373f',1,'gyroSettings']]]
+  ['flipz_8',['flipZ',['../structgyro_settings.html#a94c92be9f7c56dd9cd21120307d7373f',1,'gyroSettings']]],
+  ['fun_9',['Have fun!',['../index.html#autotoc_md8',1,'']]]
 ];
