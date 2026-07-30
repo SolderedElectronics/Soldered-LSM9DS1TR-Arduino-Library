@@ -3,11 +3,11 @@
 [![Make docs and publish to GitHub Pages](https://github.com/SolderedElectronics/Soldered-LSM9DS1TR-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-LSM9DS1TR-Arduino-Library/actions/workflows/make_docs.yml)
 [![Arduino Library Manager Compatibility](https://github.com/SolderedElectronics/Soldered-LSM9DS1TR-Arduino-Library/actions/workflows/arduino_lint.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-LSM9DS1TR-Arduino-Library/actions/workflows/arduino_lint.yml)
 
-| ![LSM9DS1TR Accelerometer, Gyroscope & Magnetometer](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
+| ![LSM9DS1TR Accelerometer, Gyroscope & Magnetometer](https://docs.soldered.com/assets/images/333069-26908f427acfcce20d2d00dae8336424.jpg) |
 | :------------------------------------------------------------------------------------: |
 |                      [LSM9DS1TR Accelerometer, Gyroscope & Magnetometer](https://solde.red/333069)                      |
 
-LSM9DS1TR breakout compliant to [easyC ecosystem](https://www.soldered.com/easyC).
+Accelerometer, Gyroscope, & Magnetometer - Breakout is a compact board that integrates a 3D accelerometer, a 3D gyroscope, and a 3D magnetometer, enabling comprehensive tracking of linear acceleration, rotational motion, and orientation in space. Thanks to high measurement resolutions (up to ±16 g for an accelerometer, ±2000 dps for a gyroscope, and ±16 gauss for a magnetometer), it is ideal for designing advanced navigation systems, gesture-controlled robots, fitness trackers, drones, and virtual reality applications. The board contains a built-in temperature sensor and FIFO buffer for efficient data management, where its high resistance to mechanical shock makes the LSM9DS1 a preferred choice for system designers creating and manufacturing reliable products.
 
 ### Repository Contents
 
